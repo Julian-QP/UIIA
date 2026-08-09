@@ -1,689 +1,73 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <meta
-        name="description"
-        content="Portafolio profesional de Jose Julian, estudiante de Ingeniería de Sistemas especializado en desarrollo de software y soluciones digitales."
-    >
-
-    <meta
-        name="keywords"
-        content="Jose Julian, Ingeniería de Sistemas, desarrollo web, JavaScript, programación, portafolio"
-    >
-
-    <meta name="author" content="Jose Julian">
-
-    <title>Jose Julian | Ingeniería de Sistemas</title>
-
-    <link rel="stylesheet" href="color.css">
+    <title>Mi Portafolio — Ingeniería de Sistemas</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
-
 <body>
-    <header class="header">
-
-        <nav class="nav container" aria-label="Navegación principal">
-
-            <a href="#inicio" class="nav-logo">
-                JJ
-            </a>
-
-            <div class="nav-menu">
-
-                <a href="#inicio" class="nav-link">
-                    Inicio
-                </a>
-
-                <a href="#sobre-mi" class="nav-link">
-                    Sobre mí
-                </a>
-
-                <a href="#habilidades" class="nav-link">
-                    Habilidades
-                </a>
-
-                <a href="#proyectos" class="nav-link">
-                    Proyectos
-                </a>
-
-                <a href="#contacto" class="nav-link">
-                    Contacto
-                </a>
-
-            </div>
-
+    <header class="site-header">
+        <nav class="navbar">
+            <a href="#inicio">Inicio</a>
+            <a href="#sobre-mi">Sobre mí</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#contacto">Contacto</a>
         </nav>
-
     </header>
-
-
     <main>
-
-       <section id="inicio" class="hero">
-
+        <section id="inicio" class="hero">
             <div class="hero-content">
-
-                <p class="hero-subtitle">
-                    Ingeniería de Sistemas
-                </p>
-
-                <h1 class="hero-title">
-                    Hola, soy
-                    <span>Jose Julian</span>
-                </h1>
-
-                <p class="hero-description">
-                    Estudiante de Ingeniería de Sistemas apasionado por
-                    la tecnología, el desarrollo de software y la creación
-                    de soluciones digitales que resuelven problemas reales.
-                </p>
-
-                <div class="hero-buttons">
-
-                    <a
-                        href="#proyectos"
-                        class="btn btn-primary">
-                        Ver mis proyectos
-                    </a>
-
-                    <a
-                        href="#contacto"
-                        class="btn btn-secondary">
-                        Contactarme
-                    </a>
-
-                </div>
-
-                <div class="hero-social">
-
-                    <a
-                        href="#"
-                        aria-label="GitHub">
-                        GitHub
-                    </a>
-
-                    <a
-                        href="#"
-                        aria-label="LinkedIn">
-                        LinkedIn
-                    </a>
-
-                    <a
-                        href="#"
-                        aria-label="Instagram">
-                        Instagram
-                    </a>
-
-                </div>
-
+                <h1>Hola, soy Jose Julian Quispe Pilares</h1>
+                <p>Estudiante de Ingeniería de Sistemas</p>
+                <button id="btn-ver-mas" type="button">Ver más</button>
+                
             </div>
-
         </section>
-
-
-        <section id="sobre-mi" class="about">
-
-            <div class="container">
-
-                <header class="section-header">
-
-                    <p class="section-subtitle">
-                        Conóceme
-                    </p>
-
-                    <h2>
-                        Sobre mí
-                    </h2>
-
-                </header>
-
-
-                <div class="about-grid">
-
-                    <div class="about-content">
-
-                        <h3>
-                            Tecnología, aprendizaje y soluciones digitales
-                        </h3>
-
-                        <p>
-                            Soy Jose Julian, estudiante de Ingeniería de
-                            Sistemas con interés en el desarrollo de
-                            aplicaciones y soluciones tecnológicas.
-                        </p>
-
-                        <p>
-                            Durante mi formación he desarrollado proyectos
-                            utilizando tecnologías web y herramientas de
-                            programación, buscando siempre mejorar mis
-                            conocimientos y adquirir experiencia práctica.
-                        </p>
-
-                        <p>
-                            Me interesa seguir creciendo profesionalmente,
-                            participar en proyectos reales y trabajar en
-                            soluciones que combinen tecnología,
-                            creatividad y utilidad.
-                        </p>
-
-                        <a
-                            href="#contacto"
-                            class="btn btn-primary">
-                            Hablemos
-                        </a>
-
-                    </div>
-
-
-                    <aside class="about-info">
-
-                        <div class="info-item">
-
-                            <strong>
-                                Formación
-                            </strong>
-
-                            <span>
-                                Ingeniería de Sistemas
-                            </span>
-
-                        </div>
-
-                        <div class="info-item">
-
-                            <strong>
-                                Enfoque
-                            </strong>
-
-                            <span>
-                                Desarrollo de software
-                            </span>
-
-                        </div>
-
-                        <div class="info-item">
-
-                            <strong>
-                                Experiencia
-                            </strong>
-
-                            <span>
-                                Proyectos académicos y personales
-                            </span>
-
-                        </div>
-
-                        <div class="info-item">
-
-                            <strong>
-                                Objetivo
-                            </strong>
-
-                            <span>
-                                Crecer como desarrollador
-                            </span>
-
-                        </div>
-
-                    </aside>
-
-                </div>
-
+        <section id="sobre-mi" class="sobre-mi">
+            <div class="section-header">
+                <h2>Sobre mí</h2>
+                <p>Desarrollador en formación creando experiencias web atractivas y útiles.</p>
             </div>
 
+            <div class="sobre-mi-grid">
+                <img
+                    src="/mi-portafolio/assets/perfil.jpg"
+                    alt="Foto de perfil de Jose Julian"
+                    class="perfil-img">
+                <div class="sobre-mi-contenido"></div>
+            </div>
+
+            <button id="btn-actividades" class="btn-secundario" type="button">
+                Otras actividades
+            </button>
+
+            <div id="actividades-info" class="actividades-info oculto"></div>
         </section>
-
-
-        <section id="habilidades" class="skills">
-
-            <div class="container">
-
-                <header class="section-header">
-
-                    <p class="section-subtitle">
-                        Tecnologías
-                    </p>
-
-                    <h2>
-                        Mis habilidades
-                    </h2>
-
-                    <p>
-                        Algunas de las tecnologías y herramientas
-                        que utilizo durante mi formación.
-                    </p>
-
-                </header>
-
-
-                <div class="skills-grid">
-
-
-                    <!-- Desarrollo Frontend -->
-
-                    <article class="skill-card">
-
-                        <div class="skill-icon">
-                            &lt;/&gt;
-                        </div>
-
-                        <h3>
-                            Desarrollo Frontend
-                        </h3>
-
-                        <p>
-                            Creación de interfaces web utilizando
-                            HTML, CSS y JavaScript.
-                        </p>
-
-                        <div class="skill-tags">
-
-                            <span>HTML5</span>
-                            <span>CSS3</span>
-                            <span>JavaScript</span>
-
-                        </div>
-
-                    </article>
-
-
-                    <!-- Programación -->
-
-                    <article class="skill-card">
-
-                        <div class="skill-icon">
-                            { }
-                        </div>
-
-                        <h3>
-                            Programación
-                        </h3>
-
-                        <p>
-                            Desarrollo de lógica, estructuras de datos
-                            y soluciones utilizando programación.
-                        </p>
-
-                        <div class="skill-tags">
-
-                            <span>JavaScript</span>
-                            <span>Python</span>
-                            <span>POO</span>
-
-                        </div>
-
-                    </article>
-
-
-                    <!-- APIs -->
-
-                    <article class="skill-card">
-
-                        <div class="skill-icon">
-                            API
-                        </div>
-
-                        <h3>
-                            APIs y servicios
-                        </h3>
-
-                        <p>
-                            Consumo de APIs REST para integrar
-                            información y servicios externos.
-                        </p>
-
-                        <div class="skill-tags">
-
-                            <span>REST API</span>
-                            <span>Fetch</span>
-                            <span>JSON</span>
-
-                        </div>
-
-                    </article>
-
-
-                    <!-- Herramientas -->
-
-                    <article class="skill-card">
-
-                        <div class="skill-icon">
-                            Git
-                        </div>
-
-                        <h3>
-                            Herramientas
-                        </h3>
-
-                        <p>
-                            Uso de herramientas para desarrollar,
-                            organizar y mantener proyectos.
-                        </p>
-
-                        <div class="skill-tags">
-
-                            <span>Git</span>
-                            <span>GitHub</span>
-                            <span>VS Code</span>
-
-                        </div>
-
-                    </article>
-
-                </div>
-
+        <section id="proyectos" class="proyectos">
+            <div class="section-header">
+                <h2>Mis Proyectos</h2>
+                <p>Algunos de mis proyectos y trabajos realizados a lo largo de mi preparación fueron los siguientes.</p>
             </div>
 
+            <div class="grid-proyectos"></div>
         </section>
-
-
-        <section id="formacion" class="education">
-
-            <div class="container">
-
-                <header class="section-header">
-
-                    <p class="section-subtitle">
-                        Mi trayectoria
-                    </p>
-
-                    <h2>
-                        Formación académica
-                    </h2>
-
-                </header>
-
-
-                <div class="timeline">
-
-
-                    <article class="timeline-item">
-
-                        <span class="timeline-date">
-                            202X — Actualidad
-                        </span>
-
-                        <div class="timeline-content">
-
-                            <h3>
-                                Ingeniería de Sistemas
-                            </h3>
-
-                            <p>
-                                Formación universitaria orientada al
-                                desarrollo de software, bases de datos,
-                                arquitectura de sistemas y tecnologías
-                                de la información.
-                            </p>
-
-                        </div>
-
-                    </article>
-
-
-                    <article class="timeline-item">
-
-                        <span class="timeline-date">
-                            Formación complementaria
-                        </span>
-
-                        <div class="timeline-content">
-
-                            <h3>
-                                Desarrollo web y programación
-                            </h3>
-
-                            <p>
-                                Aprendizaje mediante cursos, proyectos
-                                personales y práctica continua en
-                                tecnologías de desarrollo.
-                            </p>
-
-                        </div>
-
-                    </article>
-
-
-                </div>
-
+        <section id="contacto" class="contacto">
+            <div class="section-header">
+                <h2>Contacto</h2>
+                <p>Puedes ponerte en contacto conmigo.</p>
             </div>
 
-        </section>
-
-
-        <section id="proyectos" class="projects">
-
-            <div class="container">
-
-                <header class="section-header">
-
-                    <p class="section-subtitle">
-                        Mi trabajo
-                    </p>
-
-                    <h2>
-                        Proyectos
-                    </h2>
-
-                    <p>
-                        Una selección de proyectos académicos y personales
-                        desarrollados durante mi formación.
-                    </p>
-
-                </header>
-
-                <div
-                    class="grid-proyectos"
-                    id="lista-proyectos"
-                    aria-live="polite">
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <section id="servicios" class="services">
-
-            <div class="container">
-
-                <header class="section-header">
-
-                    <p class="section-subtitle">
-                        ¿Qué puedo hacer?
-                    </p>
-
-                    <h2>
-                        Soluciones digitales
-                    </h2>
-
-                    <p>
-                        Áreas en las que puedo aplicar mis conocimientos
-                        para desarrollar proyectos.
-                    </p>
-
-                </header>
-
-
-                <div class="services-grid">
-
-                    <article class="service-card">
-
-                        <h3>
-                            Desarrollo web
-                        </h3>
-
-                        <p>
-                            Creación de páginas web modernas,
-                            responsive y orientadas a una buena
-                            experiencia de usuario.
-                        </p>
-
-                    </article>
-
-
-                    <article class="service-card">
-
-                        <h3>
-                            Aplicaciones web
-                        </h3>
-
-                        <p>
-                            Desarrollo de aplicaciones con
-                            funcionalidades dinámicas y consumo
-                            de APIs.
-                        </p>
-
-                    </article>
-
-
-                    <article class="service-card">
-
-                        <h3>
-                            Soluciones digitales
-                        </h3>
-
-                        <p>
-                            Diseño y desarrollo de soluciones
-                            tecnológicas para resolver necesidades
-                            específicas.
-                        </p>
-
-                    </article>
-
-                </div>
-
-            </div>
-
-        </section>
-
-        <section id="contacto" class="contact">
-
-            <div class="container">
-
-                <header class="section-header">
-
-                    <p class="section-subtitle">
-                        ¿Trabajamos juntos?
-                    </p>
-
-                    <h2>
-                        Hablemos
-                    </h2>
-
-                    <p>
-                        Si quieres conocer más sobre mis proyectos,
-                        tienes una propuesta o simplemente quieres
-                        contactar conmigo, estaré encantado de escucharte.
-                    </p>
-
-                </header>
-
-
-                <div class="contact-actions">
-
-                    <a
-                        href="mailto:josequispepilares@gmail.com"
-                        class="btn btn-primary">
-                        Enviar un correo
-                    </a>
-
-        
-
-                </div>
-
-
-                <div class="contact-info">
-
-                    <p>
-                        <strong>Email:</strong>
-                        josequispepilares@gmail.com
-                    </p>
-
-                    <p>
-                        <strong>Disponibilidad:</strong>
-                        Abierto a proyectos y oportunidades
-                    </p>
-
-                </div>
-
-            </div>
-
+            <div class="contacto-grid"></div>
         </section>
 
     </main>
-
-    <footer class="footer">
-
-        <div class="container">
-
-            <div class="footer-content">
-
-                <div>
-
-                    <h3>
-                        Jose Julian
-                    </h3>
-
-                    <p>
-                        Estudiante de Ingeniería de Sistemas
-                        interesado en tecnología y desarrollo
-                        de software.
-                    </p>
-
-                </div>
-
-
-                <div class="footer-links">
-
-                    <a href="#inicio">
-                        Inicio
-                    </a>
-
-                    <a href="#sobre-mi">
-                        Sobre mí
-                    </a>
-
-                    <a href="#habilidades">
-                        Habilidades
-                    </a>
-
-                    <a href="#proyectos">
-                        Proyectos
-                    </a>
-
-                    <a href="#contacto">
-                        Contacto
-                    </a>
-
-                </div>
-
-            </div>
-
-
-            <div class="footer-bottom">
-
-                <p>
-                    © 2026 Jose Julian. Todos los derechos reservados.
-                </p>
-
-                <p>
-                    Portafolio de Ingeniería de Sistemas
-                </p>
-
-            </div>
-
-        </div>
-
+    <footer class="site-footer">
+        <p>&copy; 2026 — Todos los derechos reservados</p>
     </footer>
-
     <script src="script.js"></script>
 
 </body>
 
 </html>
+
